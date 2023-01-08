@@ -18,7 +18,7 @@ export default function Home() {
 
       <main className="bg-frogGreen text-4xl text-offWhite p-8  ">
         <h1 className="text-center font-Heebo text-darkBlue ">
-          The SkyTrain's Expo Line Stations
+          {"The SkyTrain's Expo Line Stations"}
         </h1>
 
         <Map></Map>

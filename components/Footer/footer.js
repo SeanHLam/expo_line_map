@@ -12,9 +12,9 @@ export default function Footer() {
           About the Project
         </h3>
         <p className=" mb-2 text-xl font-DMSans text-offWhite">
-          This page maps out Translink's expo line on a map <br></br> 
-          using the Leaflet JS library. It's also frog themed <br></br>
-          for all of the frog enthusiasts out there!
+          {"This page maps out Translink's expo line on a map"} <br></br> 
+          {"using the Leaflet JS library. It's also frog themed"} <br></br>
+          {"for all of the frog enthusiasts out there!"}
 
         </p>
       </div>
@@ -22,6 +22,7 @@ export default function Footer() {
       <div className="flex flex-col m-3">
         <h3 className=" text-4xl font-Heebo text-offWhite">Resources</h3>
         <a
+          rel="noreferrer"
           href="https://leafletjs.com/"
           target="_blank"
           className="font-DMSans text-offWhite  hover:underline"
@@ -29,6 +30,7 @@ export default function Footer() {
           Leaflet JS Library
         </a>
         <a
+          rel="noreferrer"
           href="https://www.translink.ca/schedules-and-maps/skytrain?page=1"
           target="_blank"
           className="font-DMSans text-offWhite  hover:underline"
@@ -40,9 +42,9 @@ export default function Footer() {
       <div className="flex flex-col m-3">
         <h3 className="  text-4xl font-Heebo text-offWhite">Socials</h3>
         <div className="flex justify-center">
-            <SocialIcon target="_blank" bgColor='#51AA3C' className='mr-2 scale-100 hover:scale-95 transition-all' url="https://github.com/SeanHLam" />
-            <SocialIcon target="_blank" bgColor='#51AA3C' className=' mr-2 scale-100 hover:scale-95 transition-all' url="https://www.instagram.com/seanhlam/?hl=en" />
-            <SocialIcon target="_blank" bgColor='#51AA3C' className=' mr-2 scale-100 hover:scale-95 transition-all' url="https://www.linkedin.com/in/sean-lam-a72656192/" />
+            <SocialIcon rel="noreferrer" target="_blank" bgColor='#51AA3C' className='mr-2 scale-100 hover:scale-95 transition-all' url="https://github.com/SeanHLam" />
+            <SocialIcon rel="noreferrer" target="_blank" bgColor='#51AA3C' className=' mr-2 scale-100 hover:scale-95 transition-all' url="https://www.instagram.com/seanhlam/?hl=en" />
+            <SocialIcon rel="noreferrer" target="_blank" bgColor='#51AA3C' className=' mr-2 scale-100 hover:scale-95 transition-all' url="https://www.linkedin.com/in/sean-lam-a72656192/" />
         </div>
       </div>    
 
