@@ -39,7 +39,9 @@ export default function Map() {
         />
 
         {positions.map((marker, index) => (
+          
           <Marker
+            key={index}
             className="hover:scale-125"
             position={positions[index].pos}
             icon={frogIcon}
