@@ -6,12 +6,12 @@ import { SocialIcon } from 'react-social-icons';
 export default function Footer() {
   const position = [49.28594, -123.11129];
   return (
-    <div className=" justify-evenly w-full bg-darkBlue flex  p-4">
+    <div className=" flex-wrap   justify-center w-full bg-darkBlue flex  p-4">
       <div className="  flex flex-col m-3">
         <h3 className=" text-4xl font-Heebo text-offWhite">
           About the Project
         </h3>
-        <p className=" mb-2 text-xl font-DMSans text-offWhite">
+        <p className=" text-xl font-DMSans text-offWhite">
           {"This page maps out Translink's expo line on a map"} <br></br> 
           {"using the Leaflet JS library. It's also frog themed"} <br></br>
           {"for all of the frog enthusiasts out there!"}
